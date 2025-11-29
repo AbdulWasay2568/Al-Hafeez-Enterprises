@@ -1,0 +1,61 @@
+@font-face {
+  font-family: "AlphaCentauri";
+  src: url("../../assets/fonts/AlphaCentauri.ttf") format("truetype");
+  font-weight: 500;
+  font-style: normal;
+}
+
+.logoSection {
+  position: relative;
+  padding-bottom: 12%;
+}
+
+.logoSection .scrollContainer {
+  position: relative;
+  z-index: 0;
+  color: rgb(124, 209, 209);
+  transition: background-color 0.5s ease-in-out, transform 0.5s ease-in-out;
+}
+
+.logoSection .scrollContainer.scrolled {
+  background-color: transparent;
+}
+
+.logoSection .logoText {
+  font-family: "AlphaCentauri", sans-serif;
+  font-size: 180px;
+  font-weight: 1000;
+  line-height: 192.2px;
+  text-align: left;
+  padding-left: 3%;
+  color: transparent; /* Make the text transparent */
+  -webkit-background-clip: text; /* Clip the background to the text */
+  background-image: url("../../assets/DSC03038.jpg"); /* Image as text background */
+  background-size: cover;
+  -webkit-text-fill-color: transparent; /* Hide text fill */
+  position: relative;
+  z-index: 2; /* Ensure text is above the background image */
+}
+
+.logoSection .colorBackgroundSection {
+  background-image: url("../../assets/DSC03038.jpg"); /* Path to your image */
+  background-size: cover; /* Ensure the image covers the whole section */
+  background-position: center; /* Center the image */
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  transform: translateY(100%);
+  transition: transform 0.5s ease-in-out; /* Slow down the transition for easing effect */
+}
+
+.logoSection .scrolledBackground {
+  transform: translateY(0%);
+}
+
+.logoSection .scrollContainer .logoText.scrolled {
+  color: transparent;
+  -webkit-text-stroke: 1px #fff;
+}

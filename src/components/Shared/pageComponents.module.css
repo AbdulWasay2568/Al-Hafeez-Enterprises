@@ -1,0 +1,3 @@
+.footerElems {
+  @apply text-left hover:underline my-1;
+}

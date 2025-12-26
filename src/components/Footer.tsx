@@ -2,27 +2,27 @@ import logo from "../assets/images/logo.jpeg";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
-  const footerSections = [
-    {
-      title: "Social",
-      items: [
-        { label: "LinkedIn", path: null},
-        { label: "Facebook", path: null},
-        { label: "Instagram", path: null},
-      ],
-    },
-    {
-      title: "Terms",
-      items: [
-        { label: "Privacy", path: null },
-        { label: "Cookies", path: null },
-        { label: "Licenses", path: null },
-        { label: "Settings", path: null },
-        { label: "Contact", path: null },
-      ],
-    },
-    
-  ];
+  // const footerSections = [
+  //   {
+  //     title: "Social",
+  //     items: [
+  //       { label: "LinkedIn", path: null},
+  //       { label: "Facebook", path: null},
+  //       { label: "Instagram", path: null},
+  //     ],
+  //   },
+  //   {
+  //     title: "Terms",
+  //     items: [
+  //       { label: "Privacy", path: null },
+  //       { label: "Cookies", path: null },
+  //       { label: "Licenses", path: null },
+  //       { label: "Settings", path: null },
+  //       { label: "Contact", path: null },
+  //     ],
+  //   },
+  //   
+  // ];
 
   return (
     <>

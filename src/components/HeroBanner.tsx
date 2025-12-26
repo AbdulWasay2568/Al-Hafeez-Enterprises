@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import hero1 from "../assets/images/hero1.png";
 import hero2 from "../assets/images/hero2.png";

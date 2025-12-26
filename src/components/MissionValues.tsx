@@ -1,4 +1,4 @@
-import React from "react";
+
 import { motion } from "framer-motion";
 import { FaRocket, FaEye, FaHeart, FaCode, FaUsers, FaGlobe } from "react-icons/fa";
 

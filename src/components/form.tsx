@@ -1,6 +1,6 @@
-import React from "react";
+import { ForwardedRef } from "react";
 
-const ContactForm = ({ formRef }) => {
+const ContactForm = ({ formRef }: { formRef: ForwardedRef<HTMLElement> }) => {
   return (
     <section
       ref={formRef}
@@ -88,7 +88,7 @@ const ContactForm = ({ formRef }) => {
             <textarea
               id="message"
               className="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500"
-              rows="4"
+              rows={4}
               placeholder="Your message"
             ></textarea>
           </div>
